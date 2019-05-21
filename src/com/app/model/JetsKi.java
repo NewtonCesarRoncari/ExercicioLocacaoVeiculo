@@ -1,4 +1,4 @@
 package com.app.model;
 
-public class JetsKi extends Lancha {
+public class JetsKi extends Aquatico {
 }

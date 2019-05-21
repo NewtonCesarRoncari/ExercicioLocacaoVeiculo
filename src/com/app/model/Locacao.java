@@ -73,4 +73,29 @@ public class Locacao {
     public void setDataEntregue ( String dataEntregue ) {
         this.dataEntregue = dataEntregue;
     }
+
+    public Locacao ( Funcionario funcionario, Cliente cliente, Veiculos veiculos, float precoLocacao, int diaria, String dataInicio, String dataFinal, String dataEntregue ) {
+        this.funcionario = funcionario;
+        this.cliente = cliente;
+        this.veiculos = veiculos;
+        this.precoLocacao = precoLocacao;
+        this.diaria = diaria;
+        this.dataInicio = dataInicio;
+        this.dataFinal = dataFinal;
+        this.dataEntregue = dataEntregue;
+    }
+
+    @Override
+    public String toString ( ) {
+        return "Locacao{" +
+                "funcionario=" + funcionario +
+                ", cliente=" + cliente +
+                ", veiculos=" + veiculos +
+                ", precoLocacao=" + precoLocacao +
+                ", diaria=" + diaria +
+                ", dataInicio='" + dataInicio + '\'' +
+                ", dataFinal='" + dataFinal + '\'' +
+                ", dataEntregue='" + dataEntregue + '\'' +
+                '}';
+    }
 }

@@ -5,6 +5,10 @@ public class Funcionario extends Cliente {
     private String dataInicioLocacao;
     private float salario;
 
+    public Funcionario ( String nome, String cpf, String dataFinal, String telefone, String endereco ) {
+        super(nome, cpf, dataFinal, telefone, endereco);
+    }
+
     public String getDataInicioLocacao ( ) {
         return dataInicioLocacao;
     }

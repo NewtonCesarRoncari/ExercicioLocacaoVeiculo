@@ -46,4 +46,12 @@ public class Cliente {
     public void setEndereco ( String endereco ) {
         this.endereco = endereco;
     }
+
+    public Cliente ( String nome, String cpf, String dataFinal, String telefone, String endereco ) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.dataFinal = dataFinal;
+        this.telefone = telefone;
+        this.endereco = endereco;
+    }
 }
